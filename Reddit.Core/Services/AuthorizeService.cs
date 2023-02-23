@@ -1,15 +1,8 @@
 ﻿using Microsoft.Extensions.Caching.Memory;
-using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.Options;
 using Newtonsoft.Json;
 using Reddit.Core.Interfaces;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Net.Http;
 using System.Net.Http.Headers;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Reddit.Core.Services
 {
@@ -24,7 +17,7 @@ namespace Reddit.Core.Services
         {
             _redditConfig = options.Value;
             _httpClientFactory = httpClientFactory;
-            _memoryCache = memoryCache; 
+            _memoryCache = memoryCache;
         }
         public async Task<string> Authorize()
         {

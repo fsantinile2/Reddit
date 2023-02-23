@@ -1,7 +1,4 @@
-﻿using Microsoft.AspNetCore.Http;
-using Microsoft.AspNetCore.Mvc;
-using Microsoft.Extensions.Caching.Memory;
-using Microsoft.Extensions.Options;
+﻿using Microsoft.AspNetCore.Mvc;
 using Reddit.Core.Interfaces;
 
 namespace Reddit.API.Controllers

@@ -1,5 +1,4 @@
 ﻿using System.Net;
-using System.Text;
 
 Console.WriteLine("Hello user!, this will show how many threads/news were created in the last minute");
 List<int> listQuantity = new List<int>();

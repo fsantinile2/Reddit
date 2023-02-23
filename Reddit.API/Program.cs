@@ -1,5 +1,4 @@
 using Microsoft.Extensions.Caching.Memory;
-using Reddit.API;
 using Reddit.Core;
 using Reddit.Core.Interfaces;
 using Reddit.Core.Services;
