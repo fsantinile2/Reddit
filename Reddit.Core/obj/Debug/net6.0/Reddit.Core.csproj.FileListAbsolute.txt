@@ -1,0 +1,12 @@
+C:\Users\flavi\source\repos\reddit\Reddit.Core\bin\Debug\net6.0\Reddit.Core.deps.json
+C:\Users\flavi\source\repos\reddit\Reddit.Core\bin\Debug\net6.0\Reddit.Core.dll
+C:\Users\flavi\source\repos\reddit\Reddit.Core\bin\Debug\net6.0\ref\Reddit.Core.dll
+C:\Users\flavi\source\repos\reddit\Reddit.Core\bin\Debug\net6.0\Reddit.Core.pdb
+C:\Users\flavi\source\repos\reddit\Reddit.Core\obj\Debug\net6.0\Reddit.Core.csproj.AssemblyReference.cache
+C:\Users\flavi\source\repos\reddit\Reddit.Core\obj\Debug\net6.0\Reddit.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\flavi\source\repos\reddit\Reddit.Core\obj\Debug\net6.0\Reddit.Core.AssemblyInfoInputs.cache
+C:\Users\flavi\source\repos\reddit\Reddit.Core\obj\Debug\net6.0\Reddit.Core.AssemblyInfo.cs
+C:\Users\flavi\source\repos\reddit\Reddit.Core\obj\Debug\net6.0\Reddit.Core.csproj.CoreCompileInputs.cache
+C:\Users\flavi\source\repos\reddit\Reddit.Core\obj\Debug\net6.0\Reddit.Core.dll
+C:\Users\flavi\source\repos\reddit\Reddit.Core\obj\Debug\net6.0\ref\Reddit.Core.dll
+C:\Users\flavi\source\repos\reddit\Reddit.Core\obj\Debug\net6.0\Reddit.Core.pdb

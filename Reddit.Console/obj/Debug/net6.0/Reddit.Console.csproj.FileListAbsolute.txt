@@ -1,0 +1,15 @@
+C:\Users\flavi\source\repos\reddit\Reddit.Console\obj\Debug\net6.0\Reddit.Console.csproj.AssemblyReference.cache
+C:\Users\flavi\source\repos\reddit\Reddit.Console\obj\Debug\net6.0\Reddit.Console.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\flavi\source\repos\reddit\Reddit.Console\obj\Debug\net6.0\Reddit.Console.AssemblyInfoInputs.cache
+C:\Users\flavi\source\repos\reddit\Reddit.Console\obj\Debug\net6.0\Reddit.Console.AssemblyInfo.cs
+C:\Users\flavi\source\repos\reddit\Reddit.Console\obj\Debug\net6.0\Reddit.Console.csproj.CoreCompileInputs.cache
+C:\Users\flavi\source\repos\reddit\Reddit.Console\bin\Debug\net6.0\Reddit.Console.exe
+C:\Users\flavi\source\repos\reddit\Reddit.Console\bin\Debug\net6.0\Reddit.Console.deps.json
+C:\Users\flavi\source\repos\reddit\Reddit.Console\bin\Debug\net6.0\Reddit.Console.runtimeconfig.json
+C:\Users\flavi\source\repos\reddit\Reddit.Console\bin\Debug\net6.0\Reddit.Console.dll
+C:\Users\flavi\source\repos\reddit\Reddit.Console\bin\Debug\net6.0\ref\Reddit.Console.dll
+C:\Users\flavi\source\repos\reddit\Reddit.Console\bin\Debug\net6.0\Reddit.Console.pdb
+C:\Users\flavi\source\repos\reddit\Reddit.Console\obj\Debug\net6.0\Reddit.Console.dll
+C:\Users\flavi\source\repos\reddit\Reddit.Console\obj\Debug\net6.0\ref\Reddit.Console.dll
+C:\Users\flavi\source\repos\reddit\Reddit.Console\obj\Debug\net6.0\Reddit.Console.pdb
+C:\Users\flavi\source\repos\reddit\Reddit.Console\obj\Debug\net6.0\Reddit.Console.genruntimeconfig.cache
