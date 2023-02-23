@@ -1,19 +1,16 @@
 ﻿using System.Net;
 
-Console.WriteLine("Hello user!, this will show how many threads/news were created in the last minute");
 List<int> listQuantity = new List<int>();
 var timer = new PeriodicTimer(TimeSpan.FromSeconds(60));
 
+Console.WriteLine("Hello user!, this will show how many threads/news were created in the last minute");
+
 while (await timer.WaitForNextTickAsync())
 {
-    HttpWebRequest request = (HttpWebRequest)WebRequest.Create("https://localhost:7262/api/reddit/news");
-    request.Method = "GET";
+    HttpClient request = new HttpClient();
 
-    var response = (HttpWebResponse)request.GetResponse();
-
-    Stream dataStream = response.GetResponseStream();
-    StreamReader reader = new StreamReader(dataStream);
-    string content = reader.ReadToEnd();
+    var response = await request.GetAsync("https://localhost:7262/api/reddit/news");
+    string content = await response.Content.ReadAsStringAsync();
 
     listQuantity.Add(int.Parse(content));
 

@@ -32,11 +32,11 @@ namespace Reddit.Core.Services
 
             var response = JsonConvert.DeserializeObject<NewsModel>(await result.Content.ReadAsStringAsync());
 
-            var quantityActual = response.data.children.DistinctBy(x => x.data.title);
+            var quantityActual = response.Data.Children.DistinctBy(x => x.Data.Title);
 
             if (quantityBefore != null)
             {
-                return quantityBefore.data.children.Except(quantityActual).Count();
+                return quantityBefore.Data.Children.Except(quantityActual).Count();
             }
 
             var memoryCacheEntryOptions = new MemoryCacheEntryOptions

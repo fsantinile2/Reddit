@@ -40,17 +40,20 @@ namespace Reddit.Core.Services
                 var req = new HttpRequestMessage(HttpMethod.Post, client.BaseAddress) { Content = new FormUrlEncodedContent(dict) };
                 var res = await client.SendAsync(req);
 
-
-                var response = JsonConvert.DeserializeObject<RedditToken>(await res.Content.ReadAsStringAsync());
-
-                var memoryCacheEntryOptions = new MemoryCacheEntryOptions
+                if (res.IsSuccessStatusCode)
                 {
-                    AbsoluteExpirationRelativeToNow = TimeSpan.FromSeconds(86400),
-                };
+                    var response = JsonConvert.DeserializeObject<RedditToken>(await res.Content.ReadAsStringAsync());
 
-                _memoryCache.Set(_token, response.Access_token, memoryCacheEntryOptions);
+                    var memoryCacheEntryOptions = new MemoryCacheEntryOptions
+                    {
+                        AbsoluteExpirationRelativeToNow = TimeSpan.FromSeconds(86400),
+                    };
 
-                return response.Access_token;
+                    _memoryCache.Set(_token, response?.Access_token, memoryCacheEntryOptions);
+
+                    return response.Access_token;
+                }
+                return _token;
             }
             return token;
 
